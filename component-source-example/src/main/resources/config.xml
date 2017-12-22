@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<component>
+  <componentName>component-source-example</componentName>
+  <componentDescription>component-source-example</componentDescription>
+  <componentClass>com.chinasofti.ark.bdsdp.component.ExampleSourceComponent</componentClass>
+  <componentIcon>icon-xl.png,icon-xs.png</componentIcon>
+  <componentPid>component_pid_source</componentPid>
+  <params>
+    <param>
+      <name>param_name</name>
+      <description>param_name</description>
+      <type>text</type>
+      <nullable>false</nullable>
+    </param>
+  </params>
+</component>

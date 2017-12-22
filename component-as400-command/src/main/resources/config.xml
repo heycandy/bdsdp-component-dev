@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<component>
+  <componentName>component-as400-command</componentName>
+  <componentDescription>component-as400-command</componentDescription>
+  <componentClass>com.chinasofti.ark.bdsdp.component.AS400CommandComponent</componentClass>
+  <componentIcon>icon-xl.png,icon-xs.png</componentIcon>
+  <componentPid>component_pid_common</componentPid>
+  <params>
+    <param>
+      <name>systemName</name>
+      <description>systemName</description>
+      <type>text</type>
+      <nullable>false</nullable>
+    </param>
+    <param>
+      <name>userName</name>
+      <description>userName</description>
+      <type>text</type>
+      <nullable>false</nullable>
+    </param>
+    <param>
+      <name>password</name>
+      <description>password</description>
+      <type>password</type>
+      <nullable>false</nullable>
+    </param>
+    <param>
+      <name>command</name>
+      <description>command</description>
+      <type>textarea</type>
+      <nullable>false</nullable>
+    </param>
+  </params>
+</component>

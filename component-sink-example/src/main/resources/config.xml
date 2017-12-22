@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<component>
+  <componentName>component_sink_example</componentName>
+  <componentDescription>component_sink_example</componentDescription>
+  <componentClass>com.chinasofti.ark.bdsdp.component.ExampleSinkComponent</componentClass>
+  <componentIcon>icon-xl.png,icon-xs.png</componentIcon>
+  <componentPid>component_pid_sink</componentPid>
+  <params></params>
+</component>

@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<component>
+  <componentName>组件名称</componentName>
+  <componentDescription>组件描述</componentDescription>
+  <componentClass>com.chinasofti.ark.bdsdp.component.ExampleComponent</componentClass>
+  <componentIcon>icon-xl.png,icon-xs.png</componentIcon>
+  <componentPid>组件目录</componentPid>
+  <params>
+    <param>
+      <name>text</name>
+      <description>文本输入框</description>
+      <type>text</type>
+      <nullable>false</nullable>
+    </param>
+    <param>
+      <name>textarea</name>
+      <description>文本区域</description>
+      <type>textarea</type>
+      <nullable>false</nullable>
+    </param>
+    <param>
+      <name>number</name>
+      <description>数字输入框</description>
+      <type>number</type>
+      <nullable>false</nullable>
+    </param>
+    <param>
+      <name>password</name>
+      <description>密码输入框</description>
+      <type>password</type>
+      <nullable>false</nullable>
+    </param>
+    <param>
+      <name>date</name>
+      <description>日期输入框</description>
+      <type>date</type>
+      <nullable>false</nullable>
+    </param>
+    <param>
+      <name>options</name>
+      <description>下拉选择框</description>
+      <type>options</type>
+      <nullable>false</nullable>
+      <defaultOptions>
+        <option desc="选项1" name="option1" value="0"/>
+        <option desc="选项2" name="option2" value="1"/>
+      </defaultOptions>
+    </param>
+    <param>
+      <name>fileupload</name>
+      <description>文件上传框</description>
+      <type>fileupload</type>
+      <nullable>false</nullable>
+    </param>
+    <param>
+      <name>expr</name>
+      <description>函数表达式</description>
+      <type>expr</type>
+      <nullable>false</nullable>
+      <defaultOptions>
+        <option desc="表达式1" name="expr1" value="0"/>
+        <option desc="表达式2" name="expr2" value="1"/>
+      </defaultOptions>
+    </param>
+    <param>
+      <name>radio</name>
+      <description>单选框</description>
+      <type>radio</type>
+      <nullable>true</nullable>
+      <defaultOptions>
+        <option desc="选项1" name="option1" value="0"/>
+        <option desc="选项2" name="option2" value="1"/>
+      </defaultOptions>
+    </param>
+    <param>
+      <name>keyvalue</name>
+      <description>键值对</description>
+      <type>keyvalue</type>
+      <nullable>true</nullable>
+    </param>
+
+  </params>
+</component>

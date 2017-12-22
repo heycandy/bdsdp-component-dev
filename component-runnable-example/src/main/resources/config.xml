@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<component>
+  <componentName>component-runnable-example</componentName>
+  <componentDescription>component-runnable-example</componentDescription>
+  <componentClass>com.chinasofti.ark.bdsdp.component.ExampleRunnableComponent</componentClass>
+  <componentIcon>icon-xl.png,icon-xs.png</componentIcon>
+  <componentPid>component_pid_common</componentPid>
+  <params>
+    <param>
+      <name>param_name</name>
+      <description>param_name</description>
+      <type>text</type>
+      <nullable>false</nullable>
+    </param>
+  </params>
+</component>

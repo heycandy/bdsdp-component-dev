@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<component>
+  <componentName>component-source-kafka</componentName>
+  <componentDescription>component-source-kafka</componentDescription>
+  <componentClass>com.chinasofti.ark.bdsdp.component.KafkaSourceComponent</componentClass>
+  <componentIcon>icon-xl.png,icon-xs.png</componentIcon>
+  <componentPid>component_pid_source</componentPid>
+  <params>
+    <param>
+      <name>metadata.broker.list</name>
+      <description>metadata.broker.list</description>
+      <type>text</type>
+      <nullable>false</nullable>
+    </param>
+    <param>
+      <name>topics.set</name>
+      <description>topics.set</description>
+      <type>text</type>
+      <nullable>false</nullable>
+    </param>
+  </params>
+</component>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<component>
+  <componentName>component-transform-example</componentName>
+  <componentDescription>component-transform-example</componentDescription>
+  <componentClass>com.chinasofti.ark.bdsdp.component.ExampleTransformComponent</componentClass>
+  <componentIcon>icon-xl.png,icon-xs.png</componentIcon>
+  <componentPid>component_pid_apply</componentPid>
+  <params></params>
+</component>
